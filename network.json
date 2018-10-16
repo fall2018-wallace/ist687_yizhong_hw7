@@ -70,8 +70,11 @@
             "desc": "3)\tCreate a color coded map, based on the area of the state ",
             "name": "creatmap_area.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map_area.png"
         }
     ],
-    "updated_at": "2018-10-16 23:52:31",
+    "updated_at": "2018-10-16 23:53:07",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
