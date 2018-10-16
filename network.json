@@ -37,17 +37,6 @@
         {
             "ports": [
                 {
-                    "input": "merge_df",
-                    "output": "merge_df",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "add_area.R",
-            "target": "creatmap_area.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "map_area",
                     "type": "png"
                 }
@@ -89,6 +78,6 @@
             "name": "creatmap_murder.R"
         }
     ],
-    "updated_at": "2018-10-16 23:54:41",
+    "updated_at": "2018-10-16 23:55:34",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
