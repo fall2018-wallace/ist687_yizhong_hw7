@@ -44,6 +44,16 @@
             ],
             "source": "add_area.R",
             "target": "creatmap_area.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_area",
+                    "type": "png"
+                }
+            ],
+            "source": "creatmap_area.R",
+            "target": "map_area.png"
         }
     ],
     "nodes": [
@@ -75,6 +85,6 @@
             "name": "map_area.png"
         }
     ],
-    "updated_at": "2018-10-16 23:53:07",
+    "updated_at": "2018-10-16 23:53:20",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
