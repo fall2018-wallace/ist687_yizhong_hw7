@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "yzhong18",
+            "desc": "1)\tRead in the census dataset and the USArrests and merge them ",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 23:37:42",
+    "updated_at": "2018-10-16 23:40:20",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
