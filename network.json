@@ -53,6 +53,16 @@
             ],
             "source": "add_area.R",
             "target": "mergedf.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "creatmap_area.R"
         }
     ],
     "nodes": [
@@ -91,6 +101,6 @@
             "name": "mergedf.csv"
         }
     ],
-    "updated_at": "2018-10-16 23:56:55",
+    "updated_at": "2018-10-16 23:57:07",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
