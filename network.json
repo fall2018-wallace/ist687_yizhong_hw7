@@ -22,7 +22,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "merge_df.csv"
         }
     ],
     "nodes": [
@@ -30,7 +30,7 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "data.csv"
+            "name": "merge_df.csv"
         },
         {
             "assigned_to": "yzhong18",
@@ -39,6 +39,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 23:40:20",
+    "updated_at": "2018-10-16 23:40:54",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
