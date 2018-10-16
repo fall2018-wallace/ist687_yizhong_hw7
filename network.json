@@ -83,8 +83,12 @@
         },
         {
             "name": "map_area.png"
+        },
+        {
+            "desc": "4)\tRepeat step B, but color code the map based on the murder rate of each state.",
+            "name": "creatmap_murder.R"
         }
     ],
-    "updated_at": "2018-10-16 23:53:20",
+    "updated_at": "2018-10-16 23:54:41",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
