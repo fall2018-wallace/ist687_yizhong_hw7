@@ -37,8 +37,12 @@
             "desc": "1)\tRead in the census dataset and the USArrests and merge them ",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "2)\tAdd the area of each state, and the center of each state, to the merged dataframe, using the \u2018state.center\u2019, \u2018state.center\u2019 and \u2018state.name\u2019 vectors",
+            "name": "add_area.R"
         }
     ],
-    "updated_at": "2018-10-16 23:41:10",
+    "updated_at": "2018-10-16 23:47:47",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
