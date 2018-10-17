@@ -87,6 +87,7 @@
         {
             "ports": [
                 {
+                    "input": "map_murder",
                     "output": "map_murder",
                     "type": "r_obj"
                 }
@@ -142,6 +143,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 00:42:46",
+    "updated_at": "2018-10-17 00:44:01",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
