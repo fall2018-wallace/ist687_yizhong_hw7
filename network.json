@@ -103,6 +103,16 @@
             ],
             "source": "map_pop.R",
             "target": "map_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "creat_map_pop_zoom.R"
         }
     ],
     "nodes": [
@@ -155,10 +165,12 @@
             "name": "map_pop.png"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "6)\tRepeat step C, but only show the states in the north east",
-            "name": "creat_map_pop_zoom.R"
+            "name": "creat_map_pop_zoom.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 01:41:35",
+    "updated_at": "2018-10-17 01:42:25",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
