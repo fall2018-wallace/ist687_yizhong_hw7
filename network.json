@@ -169,8 +169,11 @@
             "desc": "6)\tRepeat step C, but only show the states in the north east",
             "name": "creat_map_pop_zoom.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map_pop_zoomed.png"
         }
     ],
-    "updated_at": "2018-10-17 01:42:25",
+    "updated_at": "2018-10-17 01:54:11",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
