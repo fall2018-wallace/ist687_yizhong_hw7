@@ -1,0 +1,189 @@
+{
+    "collaborators": [
+        "yzhong18"
+    ],
+    "created_at": "2018-10-16 23:36:59",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge_df.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge_df.csv",
+            "target": "add_area.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_area",
+                    "type": "png"
+                }
+            ],
+            "source": "creatmap_area.R",
+            "target": "map_area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "add_area.R",
+            "target": "mergedf.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "creatmap_area.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "creatmap_murder.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "creatmap_murder.R",
+            "target": "map_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "map_pop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "map_pop.R",
+            "target": "map_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "creat_map_pop_zoom.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_pop_zoomed",
+                    "type": "png"
+                }
+            ],
+            "source": "creat_map_pop_zoom.R",
+            "target": "map_pop_zoomed.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "merge_df.csv"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "1)\tRead in the census dataset and the USArrests and merge them ",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "2)\tAdd the area of each state, and the center of each state, to the merged dataframe, using the \u2018state.center\u2019, \u2018state.center\u2019 and \u2018state.name\u2019 vectors",
+            "name": "add_area.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "3)\tCreate a color coded map, based on the area of the state ",
+            "name": "creatmap_area.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map_area.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "4)\tRepeat step B, but color code the map based on the murder rate of each state.",
+            "name": "creatmap_murder.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mergedf.csv"
+        },
+        {
+            "name": "map_murder.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "5)\t Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state",
+            "name": "map_pop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map_pop.png"
+        },
+        {
+            "assigned_to": "yzhong18",
+            "desc": "6)\tRepeat step C, but only show the states in the north east",
+            "name": "creat_map_pop_zoom.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map_pop_zoomed.png"
+        }
+    ],
+    "updated_at": "2018-10-17 01:54:33",
+    "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
+}
