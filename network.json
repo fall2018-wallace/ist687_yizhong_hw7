@@ -124,8 +124,12 @@
         },
         {
             "name": "map_murder.png"
+        },
+        {
+            "desc": "5)\t Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state",
+            "name": "map_pop.R"
         }
     ],
-    "updated_at": "2018-10-17 00:01:58",
+    "updated_at": "2018-10-17 00:41:05",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
