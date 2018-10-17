@@ -140,8 +140,11 @@
             "desc": "5)\t Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state",
             "name": "map_pop.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map_poop.png"
         }
     ],
-    "updated_at": "2018-10-17 00:58:36",
+    "updated_at": "2018-10-17 00:59:08",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
