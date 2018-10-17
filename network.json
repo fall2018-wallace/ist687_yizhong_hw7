@@ -87,11 +87,11 @@
         {
             "ports": [
                 {
-                    "input": "merge_df",
-                    "type": "csv"
+                    "output": "map_murder",
+                    "type": "r_obj"
                 }
             ],
-            "source": "mergedf.csv",
+            "source": "creatmap_murder.R",
             "target": "map_pop.R"
         }
     ],
@@ -136,10 +136,12 @@
             "name": "map_murder.png"
         },
         {
+            "assigned_to": "yzhong18",
             "desc": "5)\t Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state",
-            "name": "map_pop.R"
+            "name": "map_pop.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 00:41:19",
+    "updated_at": "2018-10-17 00:42:46",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
