@@ -83,6 +83,16 @@
             ],
             "source": "creatmap_murder.R",
             "target": "map_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.csv",
+            "target": "map_pop.R"
         }
     ],
     "nodes": [
@@ -130,6 +140,6 @@
             "name": "map_pop.R"
         }
     ],
-    "updated_at": "2018-10-17 00:41:05",
+    "updated_at": "2018-10-17 00:41:19",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
