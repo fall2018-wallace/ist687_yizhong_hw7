@@ -113,6 +113,16 @@
             ],
             "source": "mergedf.csv",
             "target": "creat_map_pop_zoom.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_pop_zoomed",
+                    "type": "png"
+                }
+            ],
+            "source": "creat_map_pop_zoom.R",
+            "target": "map_pop_zoomed.png"
         }
     ],
     "nodes": [
@@ -174,6 +184,6 @@
             "name": "map_pop_zoomed.png"
         }
     ],
-    "updated_at": "2018-10-17 01:54:11",
+    "updated_at": "2018-10-17 01:54:33",
     "url": "https://github.com/fall2018-wallace/ist687_yizhong_hw7"
 }
